@@ -1,0 +1,17 @@
+class oladriver 
+{
+	ola o;
+	public void choose(ola a) // mini,prime,sweden
+	{
+		this.o=o;
+		if (o instanceof mini)
+		{
+		}
+		else if (o instanceof prime)
+		{
+		}
+		else 
+		{
+		}
+	}
+}

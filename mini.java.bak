@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class mini extends ola 
+{
+	Scanner sc=new Scanner(System.in);
+	int pricekm1=10;
+	mini (String name, int age, int km)
+	{
+		super(name, age, km);
+		this.name=name;
+		this.age=age;
+		this.km=km;
+	}
+	public void bill()
+	{
+		int pay=pricekm1*km;
+		System.out.println("User you have to pay "+ pay);
+		int money=sc.nextInt();
+		if (money>=pay)
+		{
+			System.out.println("Payment is Succesfull");
+			System.out.println("Order is Confirmed");
+		}
+		else 
+		{
+			System.out.println("Order is not confirmed");
+		}
+	}
+
+}
